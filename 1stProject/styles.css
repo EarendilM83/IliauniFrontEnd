@@ -1,0 +1,9 @@
+.card-wrapper{
+    width: 740px;
+    height: 832px;
+    background-color: #77accb;
+    border: 5px solid rgb(194, 133, 34);
+    padding: 15px 30px;
+
+    margin: 50px;
+}

@@ -1,0 +1,11 @@
+div{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(226, 113, 43);
+    margin: 5px;
+    display: inline-block;
+}   
+
+.first-container{
+    background-color: rgb(89, 136, 82);
+}
