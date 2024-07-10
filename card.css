@@ -1,51 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 *{
     margin:0;
     padding:0;
 }
-
 body{
-    background-color: #ccc;
-    display: flex;
-    align-items: center;
+    background-color: #898989;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .wrapper{
-    width: 30%;
-    padding: 37px;
-    margin: 0 auto;
+    width: 740px;
+    /* height: 832px; */
     background-color: #fff;
-    border-radius: 32px;
-    
+    border-radius: 44px;
+    padding: 37px;
 }
-img{
+.cardImage{
     width: 100%;
-    height: 380px;
-    border-radius: 16px;
 }
+
 h1{
-    font-size: 33px;
     color: #0D5FFF;
-    margin: 23px 0;
 }
 p{
-    font-size: 29px;
-    margin-bottom: 23px;
-    color: #555555;
-    line-height: 35px;
+    font-size: 29.6px;
+    line-height: 37px;
+    color: #555555
+    
+}
+.mainCTA{
+    width: 100%;
+    padding: 27px 0;
+    border-radius: 22px;
+    background-color: #0069E7;
+    color: #fff;
+    border: none;
 }
 
-button{
-    width: 100%;
-    height: 93px;
-    border-radius: 16px;
-    border:none;
-    background-color:#0D5FFF;
-    color:#fff;
-    font-size:33px;
-    transition: 0.2s ease-in-out;
+.cardImage, p, h1{
+    margin-bottom: 22px;
+}
+h1, .mainCTA{
+    font-size: 33.3px;
+}
+
+h1, p, button {
+    font-family: "Abel", sans-serif;
 }
 
 button:hover{
-    background-color:#0d5effd2;
+    background-color: #0068e7d1;
 }
-
